@@ -29,7 +29,6 @@ SECRET_KEY = os.getenv('SECRET')
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.pythonanywhere.com']
-ALLOWED_HOSTS.append([os.getenv('PROJECT_DOMAIN') + ".glitch.me"])
 # Application definition
 
 INSTALLED_APPS = [
